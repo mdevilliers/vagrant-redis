@@ -1,14 +1,17 @@
-A simple vagrant configuration to create a box running redis. More [here](http://jasonpunyon.com/blog/2013/01/28/get-your-redis-on-on-windows/)
+vagrant-redis
+=============
 
-## Instructions
+Simple vagrant script for creating a development environment for redis development.
 
+Checks out the source code to /vagrant.
 
-0. Install Vagrant (http://docs.vagrantup.com/v1/docs/getting-started/index.html)
-1. Clone the repo.
-2. cd to that directory.
-3. vagrant up.
-4. Enjoy a tasty beverage. You've earned it.
+Uses the precise64 box at http://files.vagrantup.com/precise64.box (which you may already have)
 
-## License
+To use
+------
 
-Just don't sue me or cause someone else to want to sue me, OK?
+vagrant up
+
+vagrant halt
+
+vagrant up --no-provision
