@@ -25,4 +25,6 @@ cp -u /vagrant/redis.conf /etc/redis/6379.conf
 cp -u /vagrant/redis.init.d /etc/init.d/redis_6379
 
 update-rc.d redis_6379 defaults
+
+chmod a+x /etc/init.d/redis_6379
 /etc/init.d/redis_6379 start
