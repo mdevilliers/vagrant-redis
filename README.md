@@ -22,4 +22,4 @@ vagrant up --no-provision
 Thanks
 ------
 
-Thanks to JasonPunyon, Jeese at JREAM 
+Thanks to JasonPunyon, Jeese at JREAM, [gulyasm](https://github.com/gulyasm)
