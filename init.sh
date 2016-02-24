@@ -8,7 +8,7 @@ mkdir /opt/redis
 
 cd /opt/redis
 # Use latest stable
-wget http://download.redis.io/redis-stable.tar.gz
+wget -q http://download.redis.io/redis-stable.tar.gz
 # Only update newer files
 tar -xz --keep-newer-files -f redis-stable.tar.gz
 
